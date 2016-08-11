@@ -1,0 +1,84 @@
+.nav {
+      background: rgba(0, 102, 153, .8);
+      padding: 0;
+      height: 60px;
+      z-index: -1;
+
+      ul{
+
+         list-style-type: none;
+         li{
+           cursor:pointer;
+            width: 330px;
+            display: inline-block;
+            a{
+              color: white;
+              display: block;
+              font-size: 18px;
+              text-align: center;
+              text-decoration: none;
+            }
+         }
+      }
+      .fa {position: absolute;
+           display: none;}
+      .fa-chevron-down{
+                       top: -10px;
+                       left: 180px;
+                       display: block;
+      }
+      .fa-university,.fa-map{
+                             top: -10px;
+
+      }
+      .fa-book{
+               top: -18px;
+               left: 90px;
+               color: white;
+
+      }
+      .fa-home{
+               top: -20px;
+      }
+      .dropdown-toggle{
+                       position: relative;
+      }
+      .dropdown-menu {
+                      top: 29px;
+                      z-index: 100;
+                      border-radius: 0%;
+                      box-shadow: -5px 5px 1px rgba(0, 102, 153, .8);
+                     li{
+                        display: block;
+                        padding: 5px;
+                      a{
+                        color: black;
+                        font-size: 20px;
+                        text-align: left;
+                      }
+      }
+    }
+     .H{
+       @include details;
+       left: 65px;
+       top: -15px;
+      }
+      .Ho{
+          @include details;
+          left: 210px;
+          top: -10px;
+      }
+      .G{
+         @include details;
+         right: 500px;
+         top: -10px;
+      }
+      .M{
+         @include details;
+         right: 150px;
+         top: -8px;
+      }
+
+
+
+}

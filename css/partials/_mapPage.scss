@@ -1,0 +1,55 @@
+
+.map{
+     text-align: center;
+     font-size: 20px;
+     line-height: 30px;
+
+  h2{
+     position: relative;
+     top: -5px;
+  }
+
+     .intro {
+              border: 2px solid black;
+
+              .Legend{
+                border-left: 2px solid black;
+              }
+             }
+     .NC-map{
+             width: 100%;
+            }
+
+.Adventure{
+  position:relative;
+  left: 260px;
+  bottom:395px;
+  height: 50px;
+}
+
+.QAR{
+  position:relative;
+  right:-100;
+  bottom:250;
+  height:50px;
+}
+.BlackbeardTwo{
+  position:relative;
+  left: 250;
+  bottom:400;
+  height: 50px;
+}
+.BonnetTwo{
+  position:relative;
+  right: 170;
+  bottom:300;
+  height: 50px;
+}
+.KiddTwo {
+  position:relative;
+  right: 150;
+  bottom:270;
+  height: 50px;
+}
+
+}
