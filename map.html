@@ -1,7 +1,8 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Ahoy!</title>
+    <title>Old Map, Pirate Activites</title>
+    <link href="https://fonts.googleapis.com/css?family=Merienda:700" rel="stylesheet">
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://opensource.keycdn.com/fontawesome/4.6.3/font-awesome.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -15,23 +16,22 @@
     <div class="container-fluid">
 
       <div class="row header">
-        <div class="col-lg-4 col-md-4 col-s-4">
-          <img src="images/coins2.png" alt="coins">
-        </div>
-        <div class="col-lg-4 col-md-4 col-s-4">
-          <h1>Interactive Map</h1>
-        </div>
-        <div class="col-lg-4 col-md-4 col-s-4">
-          <img src="images/coins.png" class="coinsTwo" alt="coins">
-        </div>
+      <div class="col-lg-12 col-md-12 col-xs-12">
+        <img src="images/coins2.png" alt="coins">
+        <h1 class="overMore">Some Infamous Flags!</h1>
+        <img src="images/coins.png" class="coinsTwo" alt="coins">
       </div>
-
+    </div>
     <div class="row nav">
-      <div class="col-lg-12 col-md-12 col-s-12">
-        <ul>
+
+      <div class="col-lg-12 col-md-12 col-xs-12">
+        <button class="showMenu">Menu</button>
+        <ul class="options">
           <li>
-            <p><a href="index.html" class="home"><i class="fa fa-home fa-3x" aria-hidden="true"></i></a>
+            <p><a href="index.html" class="home">
               <span class="Ho">Home</span>
+                <i class="fa fa-home fa-3x" aria-hidden="true"></i>
+              </a>
             </p>
           </li>
 
@@ -39,7 +39,7 @@
             <p>
                <i class="fa fa-book fa-3x" aria-hidden="true"></i>
                <span class="H">Historical</span>
-               <i class="fa fa-chevron-down fa-2x" aria-hidden="true"></i>
+                 <i class="fa fa-chevron-down fa-2x" aria-hidden="true"></i>
              </p>
              <ul class="dropdown-menu">
                <li><a href="history.html">Infamous Scoundrels</a></li>
@@ -47,21 +47,26 @@
                <li><a href="weapons.html">Weapons and Tools</a></li>
              </ul>
            </li>
-
            <li>
-             <p><a href="map.html"><i class="fa fa-map fa-2x" aria-hidden="true"></i></a>
+             <p><a href="map.html">
                 <span class="G">Map</span>
+                <i class="fa fa-map fa-2x" aria-hidden="true"></i>
+             </a>
+
              </p>
            </li>
 
            <li>
-             <p><a href="museum.html"><i class="fa fa-university fa-2x" aria-hidden="true"></i></a>
+             <p><a href="museum.html">
                <span class="M">Museum</span>
+                 <i class="fa fa-university fa-2x" aria-hidden="true"></i>
+             </a>
+
              </p>
            </li>
       </ul>
-      </div>
     </div>
+  </div>
 
     <div class="row content map">
       <div class="col-lg-12">
@@ -72,21 +77,21 @@
         </div>
 
         <div class="row intro">
-          <div class="col-xs-6 col-lg-6">
+          <div class="col-md-6 col-lg-6">
             <h3> How to play</h3>
               <p>Click on an icon to reveal detailed information about battles, shipwrecks and possible hidden treasure.</p>
           </div>
-             <div class="col-xs-6 col-lg-6 Legend">
+             <div class="col-md-6 col-lg-6 Legend">
                <h3> Legend</h3>
 
             <div class="row iconsR">
-                <div class="col-xs-4 icon">
+                <div class="col-md-4 icon">
                   <img src="images/cannon-icon.png"/>
                     <p> Pirate Battles</p></div>
-                    <div class="col-xs-4 icon">
+                    <div class="col-md-4 icon">
                    <img src="images/ship.png"/>
                     <p> Shipwrecks </p></div>
-                    <div class="col-xs-4  icon">
+                    <div class="col-md-4  icon">
                    <img src="images/treasure-chest.png"/>
                      <p> Hidden treasure</p></div>
                  </div>
@@ -163,17 +168,17 @@
     </div>
   </div>
 
-    <div class="row footer">
-     <div class="col-lg-6 col-xs-6">
-       <img src="images/NCMuseum.png" alt=" NC Museum of Natural Science Logo">
-     </div>
-     <div class="col-lg-6 col-xs-6">
-       <i class="fa fa-facebook" aria-hidden="true"></i>
-       <i class="fa fa-twitter" aria-hidden="true"></i>
-       <i class="fa fa-instagram" aria-hidden="true"></i>
-       <i class="fa fa-tumblr" aria-hidden="true"></i>
-     </div>
-    </div>
+  <div class="row footer">
+   <div class="col-lg-6 col-md-6 col-sm-6">
+     <img src="images/NCMuseum.png" alt=" NC Museum of Natural Science Logo">
+   </div>
+   <div class="col-lg-6 col-md-6 col-sm-6">
+     <i class="fa fa-facebook" aria-hidden="true"></i>
+     <i class="fa fa-twitter" aria-hidden="true"></i>
+     <i class="fa fa-instagram" aria-hidden="true"></i>
+     <i class="fa fa-tumblr" aria-hidden="true"></i>
+   </div>
+  </div>
 
     </div>
 

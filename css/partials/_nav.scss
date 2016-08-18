@@ -20,11 +20,16 @@
             }
          }
       }
+      .Ho,.H,.M,.G{
+                    font-size: 20px;
+                    color: white;
+      }
       .fa {position: absolute;
-           display: none;}
+           display: none;
+           color: white;}
       .fa-chevron-down{
-                       top: -10px;
-                       left: 180px;
+                       top: -3px;
+                       left: 150px;
                        display: block;
       }
       .fa-university,.fa-map{
@@ -58,27 +63,21 @@
                       }
       }
     }
-     .H{
-       @include details;
-       left: 65px;
-       top: -15px;
-      }
-      .Ho{
-          @include details;
-          left: 210px;
-          top: -10px;
-      }
-      .G{
-         @include details;
-         right: 500px;
-         top: -10px;
-      }
-      .M{
-         @include details;
-         right: 150px;
-         top: -8px;
-      }
 
+
+
+      .showMenu {
+      	text-decoration: none;
+      	color: #fff;
+      	text-align: center;
+        width: 100%;
+        border:none;
+        background: none;
+      	display: none;
+        font-size: 27px;
+        padding-top: 12px;
+        outline: none;
+      }
 
 
 }

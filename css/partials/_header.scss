@@ -6,17 +6,26 @@
           img {
                 position: relative;
                 top: 15px;
-                width: 70%;
-                margin: 0px 0px 0px 30px;
+                width: 22%;
               }
+          .coinsTwo{
+                    float:right;
+          }
           h1{
              color: white;
              position: relative;
              top: 20px;
+             left: 80px;
              font-size: 45px;
-               }
-         .coinsTwo{
-                   margin: 0px 0 0 80px;
-                  }
+             display: inline-block;
+             text-align: center;
+             font-family: 'Merienda', cursive;
+             }
+      .overMore{
+               left: 10%;
+      }
+      .overMoreTwo{
+                   left: 15%;
+      }
 
 }

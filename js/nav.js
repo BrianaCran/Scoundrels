@@ -13,50 +13,62 @@ $(document).ready(function(){
 //nav hover effect start
 //home
 $(document).ready(function(){
+if($(window).width()>768){
   $('.fa-home').mouseout(function(){
-     $('.Ho').slideToggle("slow");
+     $('.Ho').slideToggle("fast");
     $('.fa-home').hide();
   });
   $('.Ho').mouseover(function(){
-     $('.fa-home').slideToggle("slow");
+     $('.fa-home').slideToggle("fast");
     $('.Ho').hide();
-  });
+  });}
 
 });
 //historical
 $(document).ready(function(){
+  if($(window).width()>768){
   $('.fa-book').mouseout(function(){
-     $('.H').slideToggle("slow");
+     $('.H').slideToggle("fast");
     $('.fa-book').hide();
   });
   $('.H').mouseover(function(){
-     $('.fa-book').slideToggle("slow");
+     $('.fa-book').slideToggle("fast");
     $('.H').hide();
-  });
+  });};
 
 });
 //Game
 $(document).ready(function(){
+  if($(window).width()>768){
   $('.fa-map').mouseout(function(){
-     $('.G').slideToggle("slow");
+     $('.G').slideToggle("fast");
     $('.fa-map').hide();
   });
   $('.G').mouseover(function(){
-     $('.fa-map').slideToggle("slow");
+     $('.fa-map').slideToggle("fast");
     $('.G').hide();
-  });
+  });};
 
 });
 //Museum
 $(document).ready(function(){
-  $('.fa-university').mouseout(function(){
-     $('.M').slideToggle("slow");
+  if($(window).width()>768){$('.fa-university').mouseout(function(){
+     $('.M').slideToggle("fast");
     $('.fa-university').hide();
   });
   $('.M').mouseover(function(){
-     $('.fa-university').slideToggle("slow");
+     $('.fa-university').slide("fast");
     $('.M').hide();
-  });
+  });};
 
 });
 //end of nav hover effect
+
+//mobile nav
+$(document).ready(function(){
+
+  $('.showMenu').click(function(){
+   $('.options').slideDown("fast");
+ });
+
+});
