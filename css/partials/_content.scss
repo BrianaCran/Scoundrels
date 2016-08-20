@@ -81,6 +81,7 @@
  .des{
       width: 90%;
       padding-left: 120px;
+      text-indent: 40px;
  }
  .MLinks{
         padding:30px 0 0 150px;
@@ -107,7 +108,8 @@
                     width: 100%;
                     display: none;
                     position: relative;
-                    top: 50px;
+                    top: 10px;
+                    left: 35px;
                     overflow: auto;
                     h2{
                       text-align: left;
@@ -120,8 +122,7 @@
                   }
             .placeholder{
                          height: 200px;
-                         width: 200px;
-                         background: white;
+                         width: 300px;
                          position: relative;
                          top: 40px;
                          left: 50px;
@@ -129,7 +130,7 @@
                          text-align: center;
 
                          img{
-                                   width: 100%;
+                                   width: 70%;
                          }
 
                   }
