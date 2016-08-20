@@ -469,13 +469,14 @@ textarea {
   .content p {
     font-size: 20px; }
   .content .bxslider {
-    width: 95%;
-    height: 250px; }
+    width: 95%; }
     .content .bxslider img {
       width: 95%; }
-  .content #bx-pager img {
-    display: block;
-    padding: 5px; }
+  .content #bx-pager {
+    padding-top: 58px; }
+    .content #bx-pager img {
+      padding: 5px;
+      display: block; }
   .content .HistoryTitle {
     text-align: center; }
   .content .info {
@@ -530,6 +531,8 @@ textarea {
     padding-left: 50px; }
 .weapons .holder {
   padding: 20px 0px 20px 0px;
+  height: 420px; }
+.weapons .holderTwo {
   height: 420px; }
 .weapons .placeholder {
   height: 200px;
@@ -640,6 +643,16 @@ h2 {
   .content {
     width: 95%;
     left: 23px; }
+    .content .bxslider {
+      left: -35px;
+      width: 100%; }
+      .content .bxslider img {
+        width: 100%; }
+    .content #bx-pager {
+      padding-top: 5px; }
+      .content #bx-pager img {
+        padding: 5px;
+        display: inline-block; }
     .content p {
       width: 100%;
       padding: 20px 0 20px 10px;
@@ -701,10 +714,15 @@ h2 {
     bottom: 110px;
     height: 40px; }
 
-  .weapons .holder {
-    padding: 10px 0px 50px 0; }
-  .weapons .placeholder {
-    left: 10px; }
+  .weapons {
+    padding-bottom: 80px; }
+    .weapons .holder, .weapons .holderTwo {
+      height: auto; }
+    .weapons .placeholder {
+      left: 10px; }
+    .weapons .text {
+      position: relative;
+      left: 0px; }
 
   .footer img {
     width: 80%; }

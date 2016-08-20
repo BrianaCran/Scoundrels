@@ -10,6 +10,7 @@
         border: 1px solid black;
       }
       }
+
 .content{
          width: 80%;
          background: rgba(255, 255, 255, .6);
@@ -24,18 +25,20 @@
 
 .bxslider {
               width: 95%;
-              height: 250px;
               img{
                   width: 95%;
 
               }
 
   }
- #bx-pager{
-           img{display: block;
-               padding: 5px;
-           }
- }
+
+  #bx-pager{
+           padding-top: 58px;
+            img{
+                padding: 5px;
+                display: block;
+            }
+  }
  .HistoryTitle{
                text-align: center;
  }
@@ -120,6 +123,10 @@
                    padding: 20px 0px 20px 0px;
                    height: 420px;
                   }
+            .holderTwo{
+                       height: 420px;
+            }
+
             .placeholder{
                          height: 200px;
                          width: 300px;
@@ -130,8 +137,8 @@
                          text-align: center;
 
                          img{
-                                   width: 70%;
-                         }
+                             width: 70%;
+                           }
 
                   }
 

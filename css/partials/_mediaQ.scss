@@ -53,6 +53,21 @@
                 .content{
                          width: 95%;
                          left: 23px;
+                         .bxslider {
+                           left: -35px;
+                                       width: 100%;
+                                       img{
+                                           width: 100%;
+
+                                       }
+
+                           }
+                         #bx-pager{ padding-top: 5px;
+                                   img{
+                                       padding: 5px;
+                                       display: inline-block;
+                                   }
+                         }
                         p{
                           width: 100%;
                           padding: 20px 0 20px 10px;
@@ -89,6 +104,7 @@
                                   text-align: center;
                                }
                                }
+
                        }
                        .map{
                               .intro {
@@ -143,15 +159,21 @@
                               }
                             }
                             .weapons{
-                                    
-                            .holder{
-                                   padding: 10px 0px 50px 0;
+                                     padding-bottom: 80px;
+                           .holder,.holderTwo{
+                                   height: auto;
 
-                            }
+                           }
+
                             .placeholder{
                                          left: 10px;
                             }
+                            .text{
+                                 position: relative;
+                                 left: 0px;
+                            }
                           }
+
 
 
                 .footer{
