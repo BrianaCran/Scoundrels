@@ -18,10 +18,9 @@
  		                             display:block;
                                  padding-bottom: 9px;
                                 }
-                     .showMenu:hover{
-                                     background: rgb(0, 102, 153);
-                     }
+
                       .options{
+
                                position: absolute;
                                display: none;
                                z-index: 100;
@@ -30,20 +29,34 @@
                                  height: 50px;
                                  display: block;
                                  width: 300px;
+                                 padding-top: 5px;
+
+                              li:hover{
+                                       background: $brown;
+
+                              }
+                              a:hover{
+                                      background: none;
+                              }
 
                                 a,.H{
+
                                   text-align: left;
                                   padding-left: 30px;
                                   font-size: 20px;
+
                                 }
 
                                }
 
                               }
+
+
                               .fa-chevron-down{
                                                top: 0px;
+                                               left: 125px;
                               }
-                              .dropdown-menu { box-shadow: none;
+                              .dropdown-menu {
                                              li{  a{
                                                 color: white;
                                               }}
@@ -54,7 +67,7 @@
                          width: 95%;
                          left: 23px;
                          .bxslider {
-                                      left: -35px;
+
                                        width: 100%;
                                        img{
                                            width: 100%;

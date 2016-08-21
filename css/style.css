@@ -414,13 +414,13 @@ textarea {
     color: white; }
   .nav .fa-chevron-down {
     top: -3px;
-    left: 150px;
+    left: 110px;
     display: block; }
   .nav .fa-university, .nav .fa-map {
     top: -10px; }
   .nav .fa-book {
     top: -18px;
-    left: 90px;
+    left: 40px;
     color: white; }
   .nav .fa-home {
     top: -20px; }
@@ -497,6 +497,8 @@ textarea {
   .content .bb {
     width: 95%;
     padding: 20px 0 30px 0px; }
+    .content .bb .specialT {
+      font-style: italic; }
   .content .titleCen {
     text-align: center; }
     .content .titleCen p {
@@ -618,8 +620,6 @@ h2 {
   .nav .showMenu {
     display: block;
     padding-bottom: 9px; }
-  .nav .showMenu:hover {
-    background: #006699; }
   .nav .options {
     position: absolute;
     display: none;
@@ -628,23 +628,26 @@ h2 {
       background: #006699;
       height: 50px;
       display: block;
-      width: 300px; }
+      width: 300px;
+      padding-top: 5px; }
+      .nav .options li li:hover {
+        background: rgba(73, 27, 6, 0.8); }
+      .nav .options li a:hover {
+        background: none; }
       .nav .options li a, .nav .options li .H {
         text-align: left;
         padding-left: 30px;
         font-size: 20px; }
   .nav .fa-chevron-down {
-    top: 0px; }
-  .nav .dropdown-menu {
-    box-shadow: none; }
-    .nav .dropdown-menu li a {
-      color: white; }
+    top: 0px;
+    left: 125px; }
+  .nav .dropdown-menu li a {
+    color: white; }
 
   .content {
     width: 95%;
     left: 23px; }
     .content .bxslider {
-      left: -35px;
       width: 100%; }
       .content .bxslider img {
         width: 100%; }

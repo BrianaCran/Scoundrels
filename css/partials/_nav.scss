@@ -24,12 +24,14 @@
                     font-size: 20px;
                     color: white;
       }
-      .fa {position: absolute;
+      .fa {
+           position: absolute;
            display: none;
-           color: white;}
+           color: white;
+         }
       .fa-chevron-down{
                        top: -3px;
-                       left: 150px;
+                       left: 110px;
                        display: block;
       }
       .fa-university,.fa-map{
@@ -38,7 +40,7 @@
       }
       .fa-book{
                top: -18px;
-               left: 90px;
+               left: 40px;
                color: white;
 
       }
