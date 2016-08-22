@@ -52,16 +52,18 @@ $(document).ready(function(){
 });
 //Museum
 $(document).ready(function(){
-  if($(window).width()>768){$('.fa-university').mouseout(function(){
+  if($(window).width()>768){
+  $('.fa-university').mouseout(function(){
      $('.M').slideToggle("fast");
     $('.fa-university').hide();
   });
   $('.M').mouseover(function(){
-     $('.fa-university').slide("fast");
+     $('.fa-university').slideToggle("fast");
     $('.M').hide();
   });};
 
 });
+
 //end of nav hover effect
 
 //mobile nav
@@ -71,4 +73,14 @@ $(document).ready(function(){
    $('.options').slideDown("fast");
  });
 
+});
+
+$(document).ready(function(){
+
+
+if($(window).width()>769 && $(window).width()<1199){
+
+alert("Please resize your browser to mobile size or full screen on desktop. Thank you for your patience!");
+
+   }
 });

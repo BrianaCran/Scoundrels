@@ -199,3 +199,85 @@
                 }
 
 }
+@media (min-width: 1200px) and (max-width: 1400px) {
+
+          .header{
+                 img{
+                     width: 20%;
+                     padding-top: 30px;
+                 }
+                 h1{
+                     font-size: 40px;
+                 }
+          }
+          .nav{
+               ul{
+                 padding-top: 10px;
+                  li{
+                     width: 280px;
+
+                  }
+               }
+              .fa-map{
+                      top: 5px;
+
+               }
+              .fa-university{
+                 top: 5px;
+                 right: 170px;
+              }
+              .fa-home{
+                       top: -2px;
+                       left: 170px;
+
+              }
+
+          }
+          .weapons{
+                   padding-right: 50px;
+                   .placeholder{
+                                padding-right: 20px;
+                   }
+          }
+
+         .map{
+
+           .Adventure{
+             position:relative;
+             left: 240px;
+             bottom:355px;
+             height: 50px;
+           }
+
+           .QAR{
+             position:relative;
+             right:-100px;
+             bottom:190px;
+             height:50px;
+           }
+           .BlackbeardTwo{
+             position:relative;
+             left: 200px;
+             bottom:330px;
+             height: 50px;
+           }
+           .BonnetTwo{
+             position:relative;
+             right: 150px;
+             bottom:270px;
+             height: 50px;
+           }
+           .KiddTwo {
+             position:relative;
+             right: 150px;
+             bottom:230px;
+             height: 50px;
+           }
+
+         }
+   iframe{
+
+          width: 100%;
+   }
+
+}

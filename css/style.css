@@ -416,7 +416,10 @@ textarea {
     top: -3px;
     left: 110px;
     display: block; }
-  .nav .fa-university, .nav .fa-map {
+  .nav .fa-university {
+    top: -10px;
+    right: 200px; }
+  .nav .fa-map {
     top: -10px; }
   .nav .fa-book {
     top: -18px;
@@ -502,7 +505,8 @@ textarea {
     .content .bb .specialT {
       font-style: italic; }
   .content .titleCen {
-    text-align: center; }
+    text-align: center;
+    color: #006699; }
     .content .titleCen p {
       font-size: 20px;
       line-height: 30px; }
@@ -514,6 +518,8 @@ textarea {
     padding: 30px 0 0 150px; }
     .content .MLinks a {
       text-decoration: none; }
+  .content .front:hover, .content .exhibit:hover {
+    opacity: .8; }
   .content iframe {
     border: none; }
 
@@ -733,5 +739,58 @@ h2 {
     width: 80%; }
   .footer .fa {
     padding: 0 0 10px 50px; } }
+@media (min-width: 1200px) and (max-width: 1400px) {
+  .header img {
+    width: 20%;
+    padding-top: 30px; }
+  .header h1 {
+    font-size: 40px; }
+
+  .nav ul {
+    padding-top: 10px; }
+    .nav ul li {
+      width: 280px; }
+  .nav .fa-map {
+    top: 5px; }
+  .nav .fa-university {
+    top: 5px;
+    right: 170px; }
+  .nav .fa-home {
+    top: -2px;
+    left: 170px; }
+
+  .weapons {
+    padding-right: 50px; }
+    .weapons .placeholder {
+      padding-right: 20px; }
+
+  .map .Adventure {
+    position: relative;
+    left: 240px;
+    bottom: 355px;
+    height: 50px; }
+  .map .QAR {
+    position: relative;
+    right: -100px;
+    bottom: 190px;
+    height: 50px; }
+  .map .BlackbeardTwo {
+    position: relative;
+    left: 200px;
+    bottom: 330px;
+    height: 50px; }
+  .map .BonnetTwo {
+    position: relative;
+    right: 150px;
+    bottom: 270px;
+    height: 50px; }
+  .map .KiddTwo {
+    position: relative;
+    right: 150px;
+    bottom: 230px;
+    height: 50px; }
+
+  iframe {
+    width: 100%; } }
 
 /*# sourceMappingURL=style.css.map */

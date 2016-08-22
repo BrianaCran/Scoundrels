@@ -21,7 +21,7 @@
          padding-bottom: 40px;
 
          h2{
-            color:rgb(0, 102, 153);
+            color: $blue;
          }
          p{
            font-size: 20px;
@@ -84,6 +84,7 @@
  }
  .titleCen{
           text-align: center;
+          color: $blue;
           p{
             font-size: 20px;
             line-height: 30px;
@@ -101,6 +102,11 @@
           text-decoration: none;
 
         }
+
+ }
+ .front:hover,.exhibit:hover{
+               opacity: .8;
+
  }
  iframe{border: none;}
 }
