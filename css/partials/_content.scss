@@ -6,7 +6,11 @@
         line-height: 30px;
         font-size: 20px;
       }
-  
+  .news{
+    h2{
+     padding-bottom: 20px;
+  }
+}
       }
 
 .content{
@@ -16,6 +20,9 @@
          left: 10%;
          padding-bottom: 40px;
 
+         h2{
+            color:rgb(0, 102, 153);
+         }
          p{
            font-size: 20px;
          }

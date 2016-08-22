@@ -457,8 +457,8 @@ textarea {
     padding: 1% 0 2% 20%;
     line-height: 30px;
     font-size: 20px; }
-  .homeP hr {
-    border: 1px solid black; }
+  .homeP .news h2 {
+    padding-bottom: 20px; }
 
 .content {
   width: 80%;
@@ -466,6 +466,8 @@ textarea {
   position: relative;
   left: 10%;
   padding-bottom: 40px; }
+  .content h2 {
+    color: #006699; }
   .content p {
     font-size: 20px; }
   .content .bxslider {
