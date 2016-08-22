@@ -78,7 +78,7 @@ $(document).ready(function(){
 $(document).ready(function(){
 
 
-if($(window).width()>769 && $(window).width()<1199){
+if($(window).width()>700 && $(window).width()<1199){
 
 alert("Please resize your browser to mobile size or full screen on desktop. Thank you for your patience!");
 
